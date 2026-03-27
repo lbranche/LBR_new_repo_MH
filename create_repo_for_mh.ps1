@@ -30,4 +30,4 @@ git submodule add "https://github.com/posaluxch/posalux-pxspace-plc.git" "source
 
 git submodule update
 
-#Set-ExecutionPolicy -Scope CurrentUser Restricted
+Set-ExecutionPolicy -Scope CurrentUser Restricted
