@@ -8,6 +8,7 @@ $repoNameSrc = "posalux-mh.0783"
 #Set up path
 $clonePath = "https://github.com/posaluxch/" + $repoNameSrc + ".git"
 Set-Location $rootPath
+git init
 
 #Clone source path
 git clone $clonePath
